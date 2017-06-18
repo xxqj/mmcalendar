@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="backBtn"></item>
+    <item type="id" name="flagType"></item>
+    <item type="id" name="listItem"></item>
+</resources>

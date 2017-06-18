@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="global_gray">#646464</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#ff000000</color>
+    <color name="red">#ffdd0000</color>
+    <color name="slategrey">#708090</color><!-- 灰石色 -->
+    <color name="lightgray">#d3d3d3</color><!-- 亮灰色 -->
+    <color name="mistyrose">#ffe4e1</color><!-- 浅玫瑰色 -->
+    <color name="green">#008000</color><!-- 绿色 -->
+    <color name="appthem">#87cefa</color>
+    <color name="graybright">#606061</color>
+    <color name="no_color">#00000000</color>
+    <color name="choose_eara_item_press_color">#f4f4f4</color>
+    <color name="list_item_bgcolor">#ECECEC</color>
+    <color name="app_headcolor">#FFF8F2</color>
+</resources>

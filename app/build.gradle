@@ -1,0 +1,39 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 22
+    buildToolsVersion "22.0.1"
+    aaptOptions.cruncherEnabled = false
+    aaptOptions.useNewCruncher = false
+
+    defaultConfig {
+        applicationId "com.mm.mmcalendar"
+        minSdkVersion 17
+        targetSdkVersion 22
+        versionCode 17
+        versionName "4.4.2"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'com.android.support:appcompat-v7:22.2.1'
+    compile 'com.android.support:support-v4:22.2.1'
+    //compile 'com.google.code.gson:gson:2.2.4'
+    //compile 'com.squareup.okhttp:okhttp:2.0.0'
+    compile project(path: ':pulltorefresh')
+    compile files('libs/okhttp-2.7.0.jar')
+    compile files('libs/EventBus2.4.jar')
+    compile files('libs/gson-2.2.4.jar')
+    compile files('libs/glide-3.6.1.jar')
+    compile files('libs/okio-1.6.0.jar')
+    compile files('libs/log4j-1.2.15.jar')
+    compile files('libs/android-logging-log4j-1.0.3.jar')
+    compile files('libs/tbs_sdk_thirdapp_v2.4.0.1073_36840.jar')
+}
